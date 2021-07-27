@@ -1,0 +1,43 @@
+p {
+  font-size: 16px;
+  line-height: 36px;
+}
+
+.p_type {
+  font-size: 16px;
+  line-height: 36px;
+}
+
+.toc {
+  
+  background-color:whitesmoke;
+  width: 100%;
+  border: 2px dotted;
+  border-color: gray;
+  
+}
+
+.theme {
+  background-color: lightcyan;
+  border-bottom: 2px solid lightcoral;
+  width: 50%;
+  text-align: left;
+
+}
+
+body {
+  border: px solid;
+  margin-left: 400px;
+  margin-right: 400px;
+  max-width: 700px;
+  min-width: 500px;
+  
+}
+
+h4{
+  text-align: left;
+}
+
+.wip{
+  
+}
