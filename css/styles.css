@@ -1,10 +1,12 @@
 /* start "header" */
 .header1{
-  margin: auto;
+  margin-top: -10px;
+  margin-left: -4px;
   padding: 60px;
-  width: 93%;
+  width: 94%;
   height: 100px;
   background: linear-gradient(90deg, #ff7f82, #dcffb8);
+  
 }
 
 .theme_protein{
@@ -12,20 +14,27 @@
   text-align: center;
   font-size: 37px;
   color: #ffffff;
+  
 }
 /* start "main" */
 .main1 {
-  border: px solid;
-  margin: auto;
-  width: 66%;
-  /* margin-left: 400px;
-  margin-right: 400px;
-  max-width: 700px;
-  min-width: 500px; */
-  
+  font-family: sans-serif;
+  padding-left: 30px;
+  /* padding-right: 24px; */
+  width:55%;
+  -webkit-text-size-adjust: auto;
+  margin-left: 20%;
+  margin-right: 20%;
 }
-
-p {
+ 
+.begin{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+  
+  
+  
+  p {
   font-size: 16px;
   line-height: 36px;
 }
@@ -38,10 +47,11 @@ p {
 .toc {
   
   background-color:whitesmoke;
-  width: 100%;
-  border: 2px dotted;
-  border-color: gray;
-  
+  /* width: 100%; */
+  border: thick double;
+  border-color:lightblue;
+  border-width: 0.5em 1em;
+  margin-top: 100px;
 }
 
 .theme {
@@ -50,6 +60,7 @@ p {
   width: 50%;
   text-align: left;
   margin-top: 200px;
+  -webkit-text-size-adjust: auto;
 
 }
 
@@ -82,4 +93,8 @@ h4{
 
 .ynwa{
   text-align: right;
+}
+
+body{
+  background-image: url("../img/memphis-mini.png");
 }
